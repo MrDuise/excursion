@@ -1,15 +1,31 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+
 h1 {
-  font-family: Verdiana;
   font-weight: normal;
   font-size: 50 px;
   color: white;
 }
-
-header {
-  text-align: center;
-}
-
 a {
   color: aquamarine;
   font-size: 16px;
+}
+
+h1,
+h2,
+p {
+  font-family: Verdiana;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 42px;
+  color: white;
+}
+
+p {
+  font-size: 21px;
+  color: gray;
 }
